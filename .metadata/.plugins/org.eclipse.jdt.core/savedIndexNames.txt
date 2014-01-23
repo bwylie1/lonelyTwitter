@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/cshome/bwylie/workspace/cs301/lonelyTwitter/.metadata/.plugins/org.eclipse.jdt.core
+1327856021.index
+2040248965.index
+2875716998.index
+2106388511.index
+78575136.index
