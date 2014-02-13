@@ -1,0 +1,27 @@
+diff --git a/src/ca/ualberta/cs/lonelytwitter/TweetListModel.java b/src/ca/ualberta/cs/lonelytwitter/TweetListModel.java
+new file mode 100644
+index 0000000..140c04b
+--- /dev/null
++++ b/src/ca/ualberta/cs/lonelytwitter/TweetListModel.java
+@@ -0,0 +1,21 @@
++package ca.ualberta.cs.lonelytwitter;
++
++import java.util.ArrayList;
++
++public class TweetListModel {
++	private static ArrayList<AbstractTweetModel> tweetList;
++
++	public ArrayList<AbstractTweetModel> getTweetList() {
++		return tweetList;
++	}
++
++	public void setTweetList(ArrayList<AbstractTweetModel> tweetList) {
++		this.tweetList = tweetList;
++	}
++
++	public TweetListModel() {
++		super();
++		tweetList = new ArrayList<AbstractTweetModel>();
++	}
++
++}
